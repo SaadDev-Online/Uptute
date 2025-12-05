@@ -945,16 +945,6 @@ h3.my-profession {
   font-size: 1.6rem;
   margin: 0.7rem 0;
 }
-.contact .row form .box:focus {
-  background: #E3E6F3;
-  color: #FFFFFF;
-}
-.contact .row form .box:focus::-moz-placeholder {
-  color: #FFFFFF;
-}
-.contact .row form .box:focus::placeholder {
-  color: #FFFFFF;
-}
 .contact .row form textarea {
   height: 18rem;
   resize: none;

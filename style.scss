@@ -1037,15 +1037,6 @@ h3.my-profession {
                 border: $border;
                 font-size: 1.6rem;
                 margin: 0.7rem 0;
-
-                &:focus {
-                    background: $sky-blue;
-                    color: $white;
-
-                    &::placeholder {
-                        color: $white;
-                    }
-                }
             }
 
             textarea {
