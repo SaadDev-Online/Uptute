@@ -245,11 +245,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-// typing animation
-var typed = new Typed(".typing", {
-    strings: ["Teacher", "Lecturer", "Mentor"],
-    typeSpeed: 100,
-    backSpeed: 60,   // <-- corrected (must be lowercase)
-    loop: true
-});

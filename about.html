@@ -94,7 +94,7 @@
                 <div class="row5">
                     <div class="home-info padd-15">
                         <h3 class="salam">Hello,I'm <span class="name">Riaz Ahmed</span></h3>
-                        <h3 class="my-profession">I'm a <span class="typing">teacher</span></h3>
+                        <h3 class="my-profession">I'm a <span class="typing"></span></h3>
                         <p>I am Riaz Ahmad, a teacher who loves helping students learn and grow. I enjoy making my
                             classes fun and easy to understand, and I take pride in guiding students and seeing them
                             gain confidence. Teaching is not just my job—it’s my passion, and I feel happy whenever I
@@ -312,7 +312,7 @@
     </section>
 
     <!-- footer section ends -->
-     <script>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
 
             function showAlert(message) {
@@ -366,6 +366,15 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // typing animation
+        var typed = new Typed(".typing", {
+            strings: ["Teacher", "Lecturer", "Mentor"],
+            typeSpeed: 100,
+            backSpeed: 60,   // <-- corrected (must be lowercase)
+            loop: true
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
