@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="" class="icon">Uptute</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="courses.html" class="active">courses</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <!-- account form section start -->
+
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+        <form id="loginForm" class="login-form active">
+            <h3>login now</h3>
+            <input type="email" id="loginEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="loginPassword" placeholder="enter your password" class="box" required />
+            <div class="flex">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">login now</button>
+        </form>
+
+        <form id="registerForm" class="register-form">
+            <h3>register now</h3>
+            <input type="email" id="registerEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="registerPassword" placeholder="enter your password" class="box" required />
+            <input type="password" id="confirmPassword" placeholder="confirm your password" class="box" required />
+            <button type="submit" class="btn">register now</button>
+        </form>
+
+        <!-- Custom Styled Alert -->
+        <div id="customAlert" class="alert-box">
+            <div class="alert-content">
+                <p id="alertMessage"></p>
+                <button onclick="closeAlert()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <section class="heading-link">
+        <h3>our courses</h3>
+        <p> <a href="home.html">home</a> / courses </p>
+    </section>
+
+    <a href="https://web.whatsapp.com/send/?phone=923449990829&text&type=phone_number&app_absent=0" target="_blank">
+        <div class="whatsapp-btn">
+            <img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" alt="WhatsApp">
+            <span class="tooltip">Chat with us on WhatsApp</span>
+        </div>
+    </a>
+
+    <section class="courses">
+        <h1 class="heading"> our famous courses </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/1.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>cambridge IGCSE Information and Communication Technology 0417</h3>
+                    <p>Learn essential ICT skills used in school, work, and everyday digital life.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/2.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>cambridge IGCSE computer science 0984</h3>
+                    <p>Understand computing basics, programming, and how computers solve problems.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/3.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>cambridge IGCSE computer science 0478</h3>
+                    <p>Build strong programming and problem-solving skills through practical tasks and activities.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/4.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>AQA GCSE computer science 8525</h3>
+                    <p>Discover how computers work and develop practical coding skills.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/5.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>AQA AS Level computer Science 7516</h3>
+                    <p>Explore programming, algorithms, and core computer science principles.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/6.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>OCR AS level Computer Science H046</h3>
+                    <p>Gain practical programming experience and learn key computing concepts.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/7.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>OCR A Level Computer Science H446</h3>
+                    <p>Study advanced programming, algorithms, and system design.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/8.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>AQA A Level Computer Science 7517</h3>
+                    <p>Develop high-level coding, analytical thinking, and system knowledge.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/9.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>OCR GCSE Computer Science J277</h3>
+                    <p>Learn coding, networks, security, and core computing concepts.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/10.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Edexcel GCSE Computer Science 1CP2</h3>
+                    <p>Understand modern computing and build practical programming skills.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/11.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Edexcel IGCSE Computer Science 4CP0</h3>
+                    <p>Learn how computer systems, algorithms, and software work together.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="Images/courses/12.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Cambridge A Level Computer Science 9618</h3>
+                    <p>Study programming, algorithms, and advanced computing theory.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/courses/13.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Cambridge A Level IT 9626</h3>
+                    <p>Learn how IT systems support businesses and the modern world.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/courses/14.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Cambridge AS Level IT 9626</h3>
+                    <p>Explore data handling, communication tools, and IT applications.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/courses/15.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Cambridge AS Level CS 9618</h3>
+                    <p>Build a foundation in algorithms, programming, and computing logic.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/courses/16.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>Python Coding Course for Grade 6-7-8</h3>
+                    <p>Learn Python basics through fun, interactive, beginner-friendly projects.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+            <div class="box hide">
+                <div class="image">
+                    <img src="Images/courses/17.jpg" alt="Course">
+                </div>
+                <div class="content">
+                    <h3>AI(Chatgpt, Gemini, Deepseek) for School Students</h3>
+                    <p>Learn how modern AI tools work and how to use them creatively.</p>
+                    <a href="contact.html#form" class="btn">more info</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="load-more"> <button class="btn">load more</button> </div>
+    </section>
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3><a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="uptute-logo img"
+                            class="icon">Uptute</a></h3>
+                <p>Where your journey to success begins.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="contact.html#form" class="link">help center</a>
+                <a href="contact.html#form" class="link">ask questions</a>
+                <a href="contact.html#form" class="link">send feedback</a>
+                <a href="contact.html#form" class="link">private policy</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action=""  id="newsletterForm">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email" required />
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+            <!-- Custom Styled Alert -->
+            <div id="customAlert" class="alert-box">
+                <div class="alert-content">
+                    <p id="alertMessage"></p>
+                    <button onclick="closeAlert()">OK</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="credit"> created by <span>mr. saad khan</span> | all rights reserved! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            function showAlert(message) {
+                document.getElementById("alertMessage").innerText = message;
+                document.getElementById("customAlert").style.display = "flex";
+            }
+
+            function closeAlert() {
+                document.getElementById("customAlert").style.display = "none";
+            }
+
+            window.closeAlert = closeAlert;
+
+            /* LOGIN VALIDATION */
+            document.getElementById("loginForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("loginEmail").value.trim();
+                let password = document.getElementById("loginPassword").value.trim();
+
+                if (email === "" || password === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully logged in!");
+            });
+
+            /* REGISTER VALIDATION */
+            document.getElementById("registerForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("registerEmail").value.trim();
+                let pass = document.getElementById("registerPassword").value.trim();
+                let confirmPass = document.getElementById("confirmPassword").value.trim();
+
+                if (email === "" || pass === "" || confirmPass === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                if (pass !== confirmPass) {
+                    showAlert("❌ Passwords do not match!");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully registered!");
+            });
+
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

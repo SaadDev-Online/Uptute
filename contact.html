@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="" class="icon">Uptute</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="courses.html">courses</a>
+            <a href="contact.html" class="active">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <!-- account form section start -->
+
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+        <form id="loginForm" class="login-form active">
+            <h3>login now</h3>
+            <input type="email" id="loginEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="loginPassword" placeholder="enter your password" class="box" required />
+            <div class="flex">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">login now</button>
+        </form>
+
+        <form id="registerForm" class="register-form">
+            <h3>register now</h3>
+            <input type="email" id="registerEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="registerPassword" placeholder="enter your password" class="box" required />
+            <input type="password" id="confirmPassword" placeholder="confirm your password" class="box" required />
+            <button type="submit" class="btn">register now</button>
+        </form>
+
+        <!-- Custom Styled Alert -->
+        <div id="customAlert" class="alert-box">
+            <div class="alert-content">
+                <p id="alertMessage"></p>
+                <button onclick="closeAlert()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <section class="heading-link">
+        <h3>contact us</h3>
+        <p> <a href="home.html">home</a> / contact </p>
+    </section>
+
+    <!-- contact section starts -->
+
+    <a href="https://web.whatsapp.com/send/?phone=923449990829&text&type=phone_number&app_absent=0" target="_blank">
+        <div class="whatsapp-btn">
+            <img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" alt="WhatsApp">
+            <span class="tooltip">Chat with us on WhatsApp</span>
+        </div>
+    </a>
+
+    <section class="contact">
+        <h1 class="heading"> get in touch </h1>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="Images/ic.jpg" alt="">
+                <h3>botim :</h3>
+                <p>+92 344 9990829</p>
+            </div>
+
+            <div class="icons">
+                <i class="fab fa-whatsapp special"></i>
+                <h3>whatsapp :</h3>
+                <p>+92 344 9990829</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone :</h3>
+                <p>+92 344 9990829</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email :</h3>
+                <p class="special">riazkhancbs22@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <img src="Images/Wechat.png" alt="">
+                <h3>we chat :</h3>
+                <p id="form">WeChat ID - RiazKhanYsfzai</p>
+            </div>
+        </div>
+
+        <hr class="light">
+
+        <div class="row">
+            <div class="image">
+                <img src="Images/Message us.webp" alt="message">
+            </div>
+            <form action="https://formspree.io/f/riazkhancbs22@gmail.com" method="POST">
+                <h3>send us a message</h3>
+                <input type="text" name="name" placeholder="name" class="box">
+                <input type="email" name="email" placeholder="email" class="box">
+                <input type="number" name="phone" placeholder="phone" class="box">
+                <textarea name="message" placeholder="message" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+    </section>
+
+    <hr class="light">
+
+    <!-- contact section ends -->
+
+    <!-- faq section starts -->
+
+    <section class="faq">
+        <h1 class="heading">frequently asked questions</h1>
+        <div class="accordion-container">
+
+            <div class="accordion active">
+                <div class="accordion-heading">
+                    <h3>What subjects are offered on the platform?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    The platform provides a wide range of subjects including computer science, languages and coding. It
+                    caters to school, college, and exam-specific courses like GCSE, IGCSE, AS, and A Level.
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>How can I book a session with the tutor?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    You can fill the website's form and we will shortly reply you after that and choose an available
+                    time slot. You can also book a session with the tutor.
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>How much are the fees?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Fees vary depending on the subject, tutor experience, and level of the course. You can also bargain
+                    the price with a tutor. Some courses also offer discounted packages for multiple sessions.
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>Does the platform offer online and offline classes?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Currently, all classes are conducted online through video sessions, allowing students to learn from
+                    anywhere. In the future, the platform plans to introduce offline, in-person classes at selected
+                    locations.
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>What equipment do I need for online classes?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    You only need a device such as a laptop, tablet, or smartphone with a stable internet connection. A
+                    headset and webcam are recommended for the best learning experience, but most classes can be joined
+                    with basic audio and video.
+                </p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-heading">
+                    <h3>Is there a trial class available?</h3>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <p class="accordion-content">
+                    Yes, a trial or demo class is available to allow students to assess teaching style and course
+                    content before committing to a full session.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="light">
+
+    <!-- faq section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3><a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="uptute-logo img"
+                            class="icon">Uptute</a></h3>
+                <p>Where your journey to success begins.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="contact.html#form" class="link">help center</a>
+                <a href="contact.html#form" class="link">ask questions</a>
+                <a href="contact.html#form" class="link">send feedback</a>
+                <a href="contact.html#form" class="link">private policy</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="" id="newsletterForm">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email" required />
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+            <!-- Custom Styled Alert -->
+            <div id="customAlert" class="alert-box">
+                <div class="alert-content">
+                    <p id="alertMessage"></p>
+                    <button onclick="closeAlert()">OK</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="credit"> created by <span>mr. saad khan</span> | all rights reserved! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            function showAlert(message) {
+                document.getElementById("alertMessage").innerText = message;
+                document.getElementById("customAlert").style.display = "flex";
+            }
+
+            function closeAlert() {
+                document.getElementById("customAlert").style.display = "none";
+            }
+
+            window.closeAlert = closeAlert;
+
+            /* LOGIN VALIDATION */
+            document.getElementById("loginForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("loginEmail").value.trim();
+                let password = document.getElementById("loginPassword").value.trim();
+
+                if (email === "" || password === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully logged in!");
+            });
+
+            /* REGISTER VALIDATION */
+            document.getElementById("registerForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("registerEmail").value.trim();
+                let pass = document.getElementById("registerPassword").value.trim();
+                let confirmPass = document.getElementById("confirmPassword").value.trim();
+
+                if (email === "" || pass === "" || confirmPass === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                if (pass !== confirmPass) {
+                    showAlert("❌ Passwords do not match!");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully registered!");
+            });
+
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

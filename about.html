@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="" class="icon">Uptute</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">home</a>
+            <a href="about.html" class="active">about</a>
+            <a href="courses.html">courses</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <!-- account form section start -->
+
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+        </div>
+
+        <form id="loginForm" class="login-form active">
+            <h3>login now</h3>
+            <input type="email" id="loginEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="loginPassword" placeholder="enter your password" class="box" required />
+            <div class="flex">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">login now</button>
+        </form>
+
+        <form id="registerForm" class="register-form">
+            <h3>register now</h3>
+            <input type="email" id="registerEmail" placeholder="enter your email" class="box" required />
+            <input type="password" id="registerPassword" placeholder="enter your password" class="box" required />
+            <input type="password" id="confirmPassword" placeholder="confirm your password" class="box" required />
+            <button type="submit" class="btn">register now</button>
+        </form>
+
+        <!-- Custom Styled Alert -->
+        <div id="customAlert" class="alert-box">
+            <div class="alert-content">
+                <p id="alertMessage"></p>
+                <button onclick="closeAlert()">OK</button>
+            </div>
+        </div>
+    </div>
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <section class="heading-link">
+        <h3>about us</h3>
+        <p> <a href="home.html">home</a> / about </p>
+    </section>
+
+    <!-- about section starts -->
+
+    <a href="https://web.whatsapp.com/send/?phone=923449990829&text&type=phone_number&app_absent=0" target="_blank">
+        <div class="whatsapp-btn">
+            <img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" alt="WhatsApp">
+            <span class="tooltip">Chat with us on WhatsApp</span>
+        </div>
+    </a>
+
+    <div class="main-content">
+        <!-- Home Section Starts -->
+        <section class="home active section5 back-section5" id="home">
+            <div class="container5">
+                <div class="row5">
+                    <div class="home-info padd-15">
+                        <h3 class="salam">Hello,I'm <span class="name">Riaz Ahmed</span></h3>
+                        <h3 class="my-profession">I'm a <span class="typing">teacher</span></h3>
+                        <p>I am Riaz Ahmad, a teacher who loves helping students learn and grow. I enjoy making my
+                            classes fun and easy to understand, and I take pride in guiding students and seeing them
+                            gain confidence. Teaching is not just my job—it’s my passion, and I feel happy whenever I
+                            see my students succeed.
+                        </p>
+                        <p>"Education is the most powerful weapon." – Nelson Mandela</p>
+                        <a href="#" class="btn" style="margin-bottom: 70px;">Hire me</a>
+                        <ul class="socials">
+                            <li>
+                                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ri-youtube-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="Images/Riaz-New-Profile.jpg" alt="hero img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home section ends -->
+    </div>
+    <hr class="light">
+    <section class="about">
+        <div class="image">
+            <img src="Images/about.jpg" alt="About-img">
+        </div>
+        <div class="content">
+            <h3 class="about-title">We have the best courses for you</h3>
+            <p>Discover a range of expertly crafted courses designed to meet your goals and elevate your skills. From
+                beginner-friendly lessons to advanced training, we ensure every module delivers real value and practical
+                knowledge. Whatever your path, we have the best courses for you to grow, achieve, and excel.
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="Images/icon1.png" alt="courses icon">
+                    <h3>350+</h3>
+                    <span>courses</span>
+                </div>
+                <div class="icons">
+                    <img src="Images/icon2.png" alt="students icon" class="student">
+                    <h3>1200+</h3>
+                    <span>students</span>
+                </div>
+                <div class="icons">
+                    <img src="Images/icon3.png" alt="awards icon">
+                    <h3>10+</h3>
+                    <span>awards</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="light">
+
+    <!-- about section ends -->
+
+    <!-- students reviews section starts -->
+
+    <section class="reviews">
+        <h1 class="heading"> our students review </h1>
+
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>This platform made learning surprisingly enjoyable. The lessons are clear, well organized, and
+                        easy to follow. I felt my confidence growing with every module.</p>
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="student picture">
+                    <h3>Emily Carter</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>The instructors explain everything in a friendly way that makes even complex topics easier. I
+                        genuinely looked forward to each lesson.</p>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="student picture">
+                    <h3>Michael Ross</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>The structure of the course is perfect for students. Everything builds smoothly from easy to
+                        challenging, and I never felt lost,Amazing tutor.</p>
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="student picture">
+                    <h3>Sophia Martinez</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>The explanations are simple, direct, and helpful. I improved much faster than I expected thanks
+                        to the clear examples and practice tasks.</p>
+                    <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="student picture">
+                    <h3>Daniel Kim</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>I liked how easy it was to understand every topic. The lessons never felt overwhelming, and the
+                        examples made concepts click instantly.</p>
+                    <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="student picture">
+                    <h3>Aisha Rahman</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Great content, clean explanations, and a smooth learning experience overall. I’d definitely
+                        recommend it to other students.It was a pleasure.</p>
+                    <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="student picture">
+                    <h3>Lucas Brown</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="light">
+
+
+
+
+
+    <!-- students reviews section starts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3><a href="#" class="logo"><img src="Images/apple-touch-icon.png" alt="uptute-logo img"
+                            class="icon">Uptute</a></h3>
+                <p>Where your journey to success begins.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="link">home</a>
+                <a href="about.html" class="link">about</a>
+                <a href="courses.html" class="link">courses</a>
+                <a href="contact.html" class="link">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="contact.html#form" class="link">help center</a>
+                <a href="contact.html#form" class="link">ask questions</a>
+                <a href="contact.html#form" class="link">send feedback</a>
+                <a href="contact.html#form" class="link">private policy</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="enter your email" class="email" required />
+                    <input type="submit" value="subscribe" class="btn" />
+                </form>
+            </div>
+
+            <!-- Custom Styled Alert -->
+            <div id="customAlert" class="alert-box">
+                <div class="alert-content">
+                    <p id="alertMessage"></p>
+                    <button onclick="closeAlert()">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="credit"> created by <span>mr. saad khan</span> | all rights reserved! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            function showAlert(message) {
+                document.getElementById("alertMessage").innerText = message;
+                document.getElementById("customAlert").style.display = "flex";
+            }
+
+            function closeAlert() {
+                document.getElementById("customAlert").style.display = "none";
+            }
+
+            window.closeAlert = closeAlert;
+
+            /* LOGIN VALIDATION */
+            document.getElementById("loginForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("loginEmail").value.trim();
+                let password = document.getElementById("loginPassword").value.trim();
+
+                if (email === "" || password === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully logged in!");
+            });
+
+            /* REGISTER VALIDATION */
+            document.getElementById("registerForm").addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                let email = document.getElementById("registerEmail").value.trim();
+                let pass = document.getElementById("registerPassword").value.trim();
+                let confirmPass = document.getElementById("confirmPassword").value.trim();
+
+                if (email === "" || pass === "" || confirmPass === "") {
+                    showAlert("Please fill out all fields.");
+                    return;
+                }
+
+                if (pass !== confirmPass) {
+                    showAlert("❌ Passwords do not match!");
+                    return;
+                }
+
+                showAlert("🎉 Congratulations, you have successfully registered!");
+            });
+
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
