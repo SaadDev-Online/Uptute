@@ -77,7 +77,7 @@ Each course includes:
 ### **Installation Instructions**
 1. **Clone the repository** or download the files:
    ```bash
-   git clone https://github.com/your-username/uptute.git
+   git clone https://github.com/SaadDev-Online/uptute.git
 Directory Structure:
 Ensure the following folder structure:
 
@@ -128,9 +128,6 @@ Push to the branch (git push origin feature-branch).
 
 Create a pull request from your feature branch to the main repository.
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for more details.
-
 Acknowledgments
 Font Awesome: For providing icons for various contact methods.
 
@@ -147,6 +144,6 @@ Email: riazkhancbs22@gmail.com
 
 Phone: +92 344 9990829
 
-WhatsApp: Click here to chat
+WhatsApp: [Click here to chat](https://web.whatsapp.com/send/?phone=923449990829&text&type=phone_number&app_absent=0)
 
 Thank you for visiting the Uptute website repository! We hope you find the platform useful and easy to navigate.
